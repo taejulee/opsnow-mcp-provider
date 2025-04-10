@@ -38,11 +38,8 @@ graph LR
 pip install -r requirements.txt
 ```
 
-3. 환경 설정:
-```bash
-cp .env.example .env
-# .env 파일에 필요한 설정 입력
-```
+3. 환경 설정
+`.env` 파일을 열어 필요한 환경 변수를 설정합니다.
 
 ## 실행 방법
 
