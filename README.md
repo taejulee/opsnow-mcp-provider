@@ -10,7 +10,7 @@ graph LR
     B --> C[OpsNow MCP Provider]:::highlight
     C --> D[OpsNow Resources]
     
-    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef highlight fill:#2e8b57,stroke:#333,stroke-width:2px;
 ```
 
 - **LLM Vendor Desktop App**: Claude와 같은 LLM 기반 데스크톱 애플리케이션
