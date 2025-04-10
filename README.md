@@ -16,7 +16,7 @@ graph LR
 - **LLM Vendor Desktop App**: Claude와 같은 LLM 기반 데스크톱 애플리케이션
 - **OpsNow MCP Server**: Asset 및 Cost 데이터를 MCP 형식으로 제공하는 서버
 - **OpsNow MCP Provider**: OpsNow API Bridge를 통해 자원 데이터를 처리
-- **OpsNow Resources**: 실제 OpsNow 리소스 데이터
+- **OpsNow Resources**: 실제 OpsNow 리소스 데이터를 가정한 목데이터로 구현 (개발 및 테스트 목적)
 
 ## 현재 구현된 기능
 
