@@ -6,9 +6,11 @@ OpsNow MCP(Module Context Protocol) Provider는 OpsNow의 Cost MCP Server와 Ass
 ## 시스템 구조
 ```mermaid
 graph LR
-    A[LLM Vendor Desktop App] --> B[OpsNow MCP Server]
-    B --> C[OpsNow MCP Provider]
+    A[LLM Vendor Desktop App] --> |MCP Protocol| B[OpsNow MCP Server]
+    B --> C[OpsNow MCP Provider]:::highlight
     C --> D[OpsNow Resources]
+    
+    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;
 ```
 
 - **LLM Vendor Desktop App**: Claude와 같은 LLM 기반 데스크톱 애플리케이션
